@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 5px 5em;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    /* height: 200px;
+    width: 700px;
+    margin: 10px; */
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+  .one{
+    height: 40px;
+    width: 70px;
+    background-color: brown;
+    font-size: 26px;
+    display: inline;
+  }
+  .two{
+    height: 40px;
+    width: 70px;
+    background-color: blue;
+    font-size: 26px;
+    display: inline;
+  }
+  .thee{
+    height: 40px;
+    width: 70px;
+    background-color: greenyellow;
+    font-size: 26px;
+    display: inline;
+  }
+  .for{
+    height: 40px;
+    width: 70px;
+    background-color: gray;
+    font-size: 26px;
+    display: inline;
+  }
+  .five{
+    height: 40px;
+    width: 70px;
+    background-color: green;
+    font-size: 26px;
+    display: inline;
+  }
+  .six{
+    height: 40px;
+    width: 70px;
+    background-color: maroon;
+    font-size: 26px;
+    display: inline;
+  }
+  .seven{
+    height: 40px;
+    width: 70px;
+    background-color: purple;
+    font-size: 26px;
+    display: inline-block;
+     /* align-self: right; */
+
+  }
